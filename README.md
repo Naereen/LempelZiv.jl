@@ -19,6 +19,8 @@ See [this file](https://naereen.github.io/LempelZiv.jl/docs/index.html).
 > The documentation is generated with [Documenter.jl](https://github.com/JuliaDocs/Documenter.jl) but I don't master it very well yet.
 > Sorry if the documentation is incomplete!
 
+- Reference: [this short lecture note by Peter Shor (Oct.2005)](https://math.mit.edu/~shor/PAM/lempel_ziv_notes.pdf).
+
 ## Demo on a [Jupyter notebook](https://www.Jupyter.org/)
 See this notebook: [on nbviewever](https://nbviewer.jupyter.org/github/Naereen/LempelZiv.jl/blob/master/Short_study_of_the_LempelZiv.jl.ipynb), which also shows the [Python implementations](https://github.com/Naereen/Lempel-Ziv_Complexity).
 
