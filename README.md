@@ -16,8 +16,6 @@ julia> LempelZiv.lempel_ziv_complexity(s)  # 1 / 0 / 01 / 1110 / 1100 / 0010
 ### Documentation
 See [this file](https://naereen.github.io/LempelZiv.jl/doc/index.html).
 
-> If you are really interested about the details of how the algorithm works, please see [this GIF screencast](https://github.com/Naereen/LempelZiv.jl/issues/2#issuecomment-312421968) from [PythonTutor.com](http://pythontutor.com/visualize.html#mode=edit).
-
 ## Demo on a [Jupyter notebook](https://www.Jupyter.org/)
 See this notebook: [on nbviewever](https://nbviewer.jupyter.org/github/Naereen/LempelZiv.jl/blob/master/Short_study_of_the_LempelZiv.jl.ipynb), which also shows the [Python implementations](https://github.com/Naereen/Lempel-Ziv_Complexity).
 

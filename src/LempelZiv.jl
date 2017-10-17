@@ -23,17 +23,23 @@ __version__ = "0.0.1"
 module LempelZiv
 export lempel_ziv_complexity
 
-"""Lempel-Ziv complexity for a binary sequence, in naive Julia code.
+"""
+    lempel_ziv_complexity(binary_sequence)
+
+Returns the Lempel-Ziv complexity for a binary sequence, in naive Julia code.
 
 - How to use it? From Julia, it's easy:
 
->>> using LempelZiv
->>> s = "1001111011000010"
->>> LempelZiv.lempel_ziv_complexity(s)  # 1 / 0 / 01 / 1110 / 1100 / 0010
+```julia
+julia> using LempelZiv
+julia> s = "1001111011000010"
+julia> LempelZiv.lempel_ziv_complexity(s)  # 1 / 0 / 01 / 1110 / 1100 / 0010
 6
+```
 
-- MIT Licensed, (C) 2017 Lilian Besson (Naereen)
-  https://GitHub.com/Naereen/LempelZiv.jl
+- [MIT Licensed](https://lbesson.mit-license.org)
+  (C) 2017 Lilian Besson (Naereen)
+  See [Naereen/LempelZiv.jl](https://GitHub.com/Naereen/LempelZiv.jl)
 """
 function lempel_ziv_complexity(binary_sequence)
     u, v, w = 0, 1, 1
