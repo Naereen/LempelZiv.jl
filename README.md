@@ -27,24 +27,24 @@ See this notebook: [on nbviewever](https://nbviewer.jupyter.org/github/Naereen/L
 ### Manually ?
 Easy!
 
-Clone this repository, go in the folder, test, and if it works, install it.
+Clone this repository, go in the folder, test, and if it works, use the [src/LempelZiv.jl](src/LempelZiv.jl) file.
 
 ```bash
 $ cd /tmp/
 $ git clone https://GitHub.com/Naereen/LempelZiv.jl
-$ cd LempelZiv.jl/
+$ cd LempelZiv.jl/src/
 $ julia LempelZiv.jl test     # should pass
-$ julia
-julia> Pkg.install("LempelZiv.jl")  # should work
+$ # use this file if you want
 ```
 
-## With FIXME ?
-This project is hosted on [the FIXME package repository](https://FIXME/LempelZiv.jl/).
+## With Pkg ?
+This project [is hosted](https://github.com/Naereen/LempelZiv.jl/issues/1) on [the METADATA.jl package repository](https://pkg.julialang.org/LempelZiv.jl/).
 
 ```bash
-sudo FIXME install LempelZiv
-# test it
-julia -E "import LempelZiv; 6 == LempelZiv.lempel_ziv_complexity(\"1001111011000010\")"  # test
+$ julia
+julia> Pkg.install("LempelZiv")  # should work
+# now test it
+$ julia -E "import LempelZiv; 6 == LempelZiv.lempel_ziv_complexity(\"1001111011000010\")"  # test
 ```
 
 ----

@@ -16,7 +16,7 @@ julia> LempelZiv.lempel_ziv_complexity(s)  # 1 / 0 / 01 / 1110 / 1100 / 0010
 """
 
 __author__ = "Lilian Besson (Naereen)"
-__version__ = "0.1"
+__version__ = "0.0.1"
 
 using LempelZiv
 using Base.Test
