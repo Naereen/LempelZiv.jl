@@ -4,12 +4,12 @@ This repository contains a small, simple and efficient implementation of the [Le
 
 ## Examples
 ### Simple usage
-If the [`LempelZiv.jl`](src/LempelZiv.jl) file is accessible in your PATH or in Python's path:
+If the [`LempelZiv.jl`](src/LempelZiv.jl) file is accessible in your PATH or in Julia's path:
 
-```python
->>> from lempel_ziv_complexity import lempel_ziv_complexity
->>> s = '1001111011000010'
->>> lempel_ziv_complexity(s)  # 1 / 0 / 01 / 1110 / 1100 / 0010
+```julia
+julia> import LempelZiv
+julia> s = "1001111011000010"
+julia> LempelZiv.lempel_ziv_complexity(s)  # 1 / 0 / 01 / 1110 / 1100 / 0010
 6
 ```
 
@@ -44,7 +44,7 @@ This project is hosted on [the FIXME package repository](https://FIXME/LempelZiv
 ```bash
 sudo FIXME install LempelZiv
 # test it
-python -c "from lempel_ziv_complexity import lempel_ziv_complexity; print(lempel_ziv_complexity('1001111011000010') == 6)"  # test
+julia -E "import LempelZiv; 6 == LempelZiv.lempel_ziv_complexity(\"1001111011000010\")"  # test
 ```
 
 ----

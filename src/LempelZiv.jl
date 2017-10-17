@@ -1,12 +1,11 @@
 #!/usr/bin/env julia
-# -*- coding: utf-8 -*-
 """Lempel-Ziv complexity for a binary sequence, in naive Julia code.
 
 - How to use it? From Julia, it's easy:
 
->>> using LempelZiv
->>> s = "1001111011000010"
->>> LempelZiv.lempel_ziv_complexity(s)  # 1 / 0 / 01 / 1110 / 1100 / 0010
+julia> using LempelZiv
+julia> s = "1001111011000010"
+julia> LempelZiv.lempel_ziv_complexity(s)  # 1 / 0 / 01 / 1110 / 1100 / 0010
 6
 
 
