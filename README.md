@@ -14,7 +14,10 @@ julia> LempelZiv.lempel_ziv_complexity(s)  # 1 / 0 / 01 / 1110 / 1100 / 0010
 ```
 
 ### Documentation
-See [this file](https://naereen.github.io/LempelZiv.jl/doc/index.html).
+See [this file](https://naereen.github.io/LempelZiv.jl/docs/index.html).
+
+> The documentation is generated with [Documenter.jl](https://github.com/JuliaDocs/Documenter.jl) but I don't master it very well yet.
+> Sorry if the documentation is incomplete!
 
 ## Demo on a [Jupyter notebook](https://www.Jupyter.org/)
 See this notebook: [on nbviewever](https://nbviewer.jupyter.org/github/Naereen/LempelZiv.jl/blob/master/Short_study_of_the_LempelZiv.jl.ipynb), which also shows the [Python implementations](https://github.com/Naereen/Lempel-Ziv_Complexity).
@@ -50,7 +53,7 @@ $ julia -E "import LempelZiv; 6 == LempelZiv.lempel_ziv_complexity(\"10011110110
 ## Python implementation ?
 
 The Python :snake: package is published here: [Naereen/Lempel-Ziv_Complexity](https://github.com/Naereen/Lempel-Ziv_Complexity),
-and see [here for its documentation](https://naereen.github.io/Lempel-Ziv_Complexity/doc/index.html).
+and see [here for its documentation](https://naereen.github.io/Lempel-Ziv_Complexity/docs/index.html).
 
 [![lempel_ziv_complexity in pypi](https://img.shields.io/pypi/v/lempel_ziv_complexity.svg)](https://pypi.org/project/LempelZiv.jl/)
 ![PyPI implementation](https://img.shields.io/pypi/implementation/lempel_ziv_complexity.svg)
