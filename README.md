@@ -75,8 +75,7 @@ and see [here for its documentation](https://naereen.github.io/Lempel-Ziv_Comple
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 [![Analytics](https://ga-beacon.appspot.com/UA-38514290-17/github.com/Naereen/LempelZiv.jl/README.md?pixel)](https://GitHub.com/Naereen/LempelZiv.jl/)
 
+[![made-for-julia](https://img.shields.io/badge/Made%20for-Julia-1abc9c.svg)](https://www.julialang.org/)
 [![ForTheBadge uses-badges](http://ForTheBadge.com/images/badges/uses-badges.svg)](http://ForTheBadge.com)
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
-
-[![forthebadge made-with-julia](http://ForTheBadge.com/images/badges/made-with-julia.svg)](https://www.julialang.org/)
 [![ForTheBadge built-with-science](http://ForTheBadge.com/images/badges/built-with-science.svg)](https://GitHub.com/Naereen/)
