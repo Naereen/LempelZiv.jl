@@ -9,8 +9,8 @@ If the [`LempelZiv.jl`](src/LempelZiv.jl) file is accessible in your PATH or in 
 ```julia
 julia> import LempelZiv
 julia> s = "1001111011000010"
-julia> LempelZiv.lempel_ziv_complexity(s)  # 1 / 0 / 01 / 1110 / 1100 / 0010
-6
+julia> LempelZiv.lempel_ziv_complexity(s)  # 1 / 0 / 01 / 11 / 10 / 110 / 00 / 010
+8
 ```
 
 ### Documentation
