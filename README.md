@@ -1,6 +1,6 @@
 # Julia implementation of Lempel-Ziv Complexity
 
-This repository contains a small, simple and efficient implementation of the [Lempel-Ziv complexity](https://en.wikipedia.org/wiki/LempelZiv.jl) algorithm.
+This repository contains a small, simple and efficient implementation of the [Lempel-Ziv complexity](https://en.wikipedia.org/wiki/Lempel-Ziv_complexity) algorithm.
 
 ## Examples
 ### Simple usage
