@@ -1,25 +1,11 @@
 #!/usr/bin/env julia
-"""Lempel-Ziv complexity for a binary sequence, in naive Julia code.
-
-- How to use it? From Julia, it's easy:
-
-julia> using LempelZiv
-julia> s = "1001111011000010"
-julia> LempelZiv.lempel_ziv_complexity(s)    # 1 / 0 / 01 / 11 / 10 / 110 / 00 / 010
-8
-
-
-- Note: there is also a Python version, if you need.
-
-- MIT Licensed, (C) 2017 Lilian Besson (Naereen)
-  https://GitHub.com/Naereen/LempelZiv.jl
-"""
-
-__author__ = "Lilian Besson (Naereen)"
-__version__ = "0.0.2"
-
 using LempelZiv
-using Base.Test
+using Test
 
-# write your own tests here
-@test 8 == lempel_ziv_complexity("1001111011000010")
+println("\nTesting Lempel-Ziv algorithm...")
+
+@testset "Lempel-Ziv complexity algorithm" begin
+    @test 8 == lempel_ziv_complexity("1001111011000010")
+    @test 9 == lempel_ziv_complexity("1001111011000010000010")
+    @test 10 == lempel_ziv_complexity("100111101100001000001010")
+end

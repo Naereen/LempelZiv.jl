@@ -5,3 +5,6 @@ __pycache__
 *.html
 .ipynb_checkpoints/
 src/dist/
+
+#macOS files to ignore
+**/.DS_Store

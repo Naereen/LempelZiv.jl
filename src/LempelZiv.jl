@@ -41,7 +41,7 @@ function lempel_ziv_complexity(sequence)
     n = length(sequence)
 
     ind = 1
-    inc = 1
+    inc = 0
     while true
         if ind + inc > n
             break
@@ -51,8 +51,8 @@ function lempel_ziv_complexity(sequence)
             inc += 1
         else
             push!(sub_strings, sub_str)
-            ind += inc
-            inc = 1
+            ind += (inc+1)
+            inc = 0
         end
     end
     return length(sub_strings)
